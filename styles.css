@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6;
+    background-color: #FAE3C6;
+}
+
+.header {
+	border-bottom: 3px solid #533B4D;
+	padding: 1rem;
+	cursor: pointer;
+    background-color: #FAA4BD;
+}
+
+.title {
+	font-size: 7rem;
+	text-align: center;
+}
+
+.info {
+	padding: 20px;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.main {
+	padding: 0 8rem;
+}
+
+.gameboard {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 454px;
+	height: 454px;
+	border: 2px solid #533B4D;
+	margin: 0px auto;
+}
+
+.cell {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #533B4D;
+	background-color: #C1ABA6;
+	font-size: 10rem;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.cell:hover {
+    background-color: #99708F;
+  }
+
+.button {
+	padding: 10px 20px;
+	border: 3px solid #533B4D;
+	border-radius: 7px;
+	background-color: #C1ABA6;
+	font-size: 4rem;
+	cursor: pointer;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+
+.button:hover {
+	background-color: #AB8D87;
+}
